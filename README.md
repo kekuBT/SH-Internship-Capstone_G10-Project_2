@@ -1,6 +1,6 @@
 # This a group project to work on a website with a description below
 A. PROJECT
-    Build a simple responsive webpage with the following sections only;
+    - Build a simple responsive webpage with the following sections only;
 
         A. Navigation bar  (with a hamburger icon for the mobile view)
 
@@ -23,7 +23,7 @@ B. PROJECT INSTRUCTIONS
 *   [Telegram](https://t.me/KekuBt)
 *   [github](https://github.com/kekubt)
 #
-		Ajibola Alade - Assistant Team Lead
+		Ajibola Alade - Assistant Team Leader
 *   [Telegram](https://t.me/Ajibola_1)
 *   [Github](https://github.com/Ajibola1234)
 #
