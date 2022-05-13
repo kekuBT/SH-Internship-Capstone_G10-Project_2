@@ -18,14 +18,14 @@ B. PROJECT INSTRUCTIONS
 
 
 # Team
-		Ajibola Alade - Team Lead
-*   [Telegram](https://t.me/Ajibola_1)
-*   [Github](https://github.com/Ajibola1234)
-#
-		Keku Belina - Assistant Team Lead
+
+		Keku Belina - Team Leader
 *   [Telegram](https://t.me/KekuBt)
 *   [github](https://github.com/kekubt)
-
+#
+		Ajibola Alade - Assistant Team Lead
+*   [Telegram](https://t.me/Ajibola_1)
+*   [Github](https://github.com/Ajibola1234)
 #
 		Bamidele Tijani - Team Member
 *   [Telegram](https://t.me/EmmyB4Christ)
