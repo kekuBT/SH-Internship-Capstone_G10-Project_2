@@ -30,7 +30,3 @@ B. PROJECT INSTRUCTIONS
 		Bamidele Tijani - Team Member
 *   [Telegram](https://t.me/EmmyB4Christ)
 *   [Github](https://github.com/Emmyb123)
-#
-		Abioye Qurrotulayn - Team Member
-*   [Telegram](https://t.me/)
-*   [Github](https://github.com/Joyayn)
