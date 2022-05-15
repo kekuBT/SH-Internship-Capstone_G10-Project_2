@@ -8,6 +8,12 @@
    <!-- Bootstarp CSS CDN -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!-- Bootstrap JS CDN -->
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- Font awesome CDN -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
    <!-- local CSS link -->
    <link rel="stylesheet" href="style.css">
    <title>SH GROUP 10</title>
@@ -17,7 +23,7 @@
    <!-- Navbar Section -->
    <nav class="navbar">
       <div class="navbar_container">
-         <a href="#home" id="navbar_logo">SH GROUP 10</a>
+         <a href="#home" id="navbar_logo"><img src="images/logo-dark.png" width="20%" alt=""></a>
 
          <ul class="navbar_menu">
             <li class="navbar_item">
@@ -29,76 +35,124 @@
             <li class="navbar_item">
                <a href="#services" class="navbar_links" id="services-page">Services</a>
             </li>
-            <li class="navbar_btn">
-               <a href="#sign-up" class="button" id="signup">Sign Up</a>
+            <li class="navbar_links">
+               <a href="#sign-up" class="button" id="signup">Sign In</a>
             </li>
          </ul>
       </div>
    </nav>
 
+   <!-- front page section -->
 
-
-
-   <!-- Form section -->
-   <section>
-      <div class="form-border">
-         <h1 class="form-head"> CREATE ACCOUNT</h1> <br />
-         <form id="form">
-
-            <div class="username-i">
-               <div class="user-form-icon">
-                  <img src="./images/username-icon.png" alt="./images/username-icon.png" />
-               </div>
-               <input type="text" name="username" placeholder="enter your username" />
-            </div> <br /> <br />
-
-
-            <div class="email-i">
-               <div class="email-form-icon">
-                  <img src="./images/email-icon.png" alt="email-icon.png">
-               </div>
-               <input type="email" name="email" placeholder="enter your email">
-            </div> <br /> <br />
-
-            <div class="phone-i">
-               <div class="phone-form-icon">
-                  <img src="./images/contact-icon.png" alt="contact-icon.png">
-               </div>
-               <input type="phone" placeholder="enter your phone number">
-            </div> <br /> <br />
-
-            <div class="password-i">
-               <div class="password-form-icon">
-                  <img src="./images/password-icon.png" alt="./images/password-icon.png">
-               </div>
-               <input type="password" placeholder="enter your password">
-            </div> <br /> <br />
-
-            <div class="password-i">
-               <div class="password-form-icon">
-                  <img src="./images/password-icon.png" alt="./images/password-icon.png">
-               </div>
-               <input type="password" placeholder="confirm password">
-            </div> <br /> <br />
-
-            <div class="gender-icon-dropdown">
-               <div class="gender-icon"> <img src="./images/gender-icon.png" alt="./images/gender-icon.png"> </div>
-               <select class="gender">
-                  <option value="male"> Select gender</option>
-                  <option value="gender"> Male</option>
-                  <option value="gender"> Femeale</option>
-               </select>
-            </div> <br />
-
-            <div class="button-style">
-               <button class="btn btn-primary"> Submit</button>
-            </div>
+   <div class="hero" id="home">
+      <div class="hero_container">
+         <h1 class="hero_heading">Side <span>Hustle</span></h1>
+         <p class="hero_description">Group Ten</p>
+         <button class="main_btn"><a href="#">Explore</a></button>
       </div>
-      </form>
-   </section>
+   </div>
 
+   <!-- About Section -->
 
-   <script src="app.js"></script>
+   <div class="main" id="about">
+      <div class="main_container">
+         <div class="main_img-container">
+            <div class="main_img-card"><img src="images/logo-dark.png" alt=""></i></div>
+         </div>
+         <div class="main_content">
+            <h1>What do we do?</h1>
+            <h2>We help interns grow</h2>
+            <p>Just register and you will be one step better</p>
+            <button class="main_btn"><a href="#">Register</a></button>
+         </div>
+      </div>
+   </div>
+
+   <!-- Services Section -->
+
+   <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services_wrapper">
+         <div class="services_card">
+            <h2>Starter</h2>
+            <p>5$ per month</p>
+            <div class="services_btn"><button>Get Started</button></div>
+         </div>
+         <div class="services_card">
+            <h2>Standard</h2>
+            <p>10$ per month</p>
+            <div class="services_btn"><button>Get Started</button></div>
+         </div>
+         <div class="services_card">
+            <h2>Pro</h2>
+            <p>25$ per month</p>
+            <div class="services_btn"><button>Get Started</button></div>
+         </div>
+         <div class="services_card">
+            <h2>Premium</h2>
+            <p>50$ per month</p>
+            <div class="services_btn"><button>Get Started</button></div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Features Section -->
+
+   <div class="main" id="sign-up">
+      <div class="main_container">
+         <div class="main_content">
+            <h1>Join Our Team</h1>
+            <h2>Sign Up Today</h2>
+            <p>See what makes us different</p>
+            <button class="main_btn"><a href="#">Sign Up</a></button>
+         </div>
+         <div class="main_img-container">
+            <div class="main_img-card" id="card-2">
+               <i class="fas fa-users"></i>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="register">
+                  <label for="">Username</label>
+                  <div class="form-group">
+                     <input type="username" class="form-control" placeholder="username">
+                  </div>
+                  <label>Email address</label>
+                  <div class="form-group">
+                     <input type="email" value="" class="form-control" placeholder="example@gmail.com">
+                  </div>
+                  <label>Password</label>
+                  <div class="form-group pass_show">
+                     <input type="password" value="" class="form-control" placeholder="Password" id="password">
+                     <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
+                           onclick="toggle()"></i></span>
+                  </div>
+                  <label>Confirm Password</label>
+                  <div class="form-group pass_show">
+                     <input type="password" value="" class="form-control" placeholder="Confirm Password"
+                        id="confirm-password">
+                     <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
+                           onclick="toggle()"></i></span>
+                  </div>
+                  <label>Phone number</label>
+                  <div class="form-group">
+                     <input type="phone" value="" class="form-control" placeholder="phone number">
+                  </div>
+                  <label>Gender</label>
+                  <div>
+                     <label for="male" class="radio-inline"><input type="radio" name="gender" id="male
+                         ">Male</label>
+                     <label for="female" class="radio-inline"><input type="radio" name="gender" id="
+                           female">Female</label>
+                     <label for="others" class="radio-inline"><input type="radio" name="gender" id="
+                           others">others</label>
+                  </div>
+                  <input type="submit" class="btn btn-success">
+               </div>
+            </div>
+         </div>
+         <script src="app.js"></script>
 </body>
 
 </html>
