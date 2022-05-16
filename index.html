@@ -114,38 +114,38 @@
          <div class="container">
             <div class="row">
                <div class="register">
-                  <label for="">Username</label>
+                  <label>Username<span class="asterisk">*</span></label>
                   <div class="form-group">
-                     <input type="username" class="form-control" placeholder="username">
+                     <input type="text" name="username" class="form-control" placeholder="username" required>
                   </div>
-                  <label>Email address</label>
+                  <label>Email address <span class="asterisk">*</span></label>
                   <div class="form-group">
-                     <input type="email" value="" class="form-control" placeholder="example@gmail.com">
+                     <input type="email" value="" class="form-control" placeholder="example@gmail.com" required>
                   </div>
-                  <label>Password</label>
+                  <label>Password <span class="asterisk">*</span></label>
                   <div class="form-group pass_show">
-                     <input type="password" value="" class="form-control" placeholder="Password" id="password">
+                     <input type="password" value="" class="form-control" placeholder="Password" id="password" required>
                      <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
                            onclick="toggle()"></i></span>
                   </div>
-                  <label>Confirm Password</label>
+                  <label>Confirm Password <span class="asterisk">*</span></label>
                   <div class="form-group pass_show">
                      <input type="password" value="" class="form-control" placeholder="Confirm Password"
-                        id="confirm-password">
+                        id="confirm-password" required>
                      <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
                            onclick="toggle()"></i></span>
                   </div>
-                  <label>Phone number</label>
+                  <label>Phone number <span class="asterisk">*</span></label>
                   <div class="form-group">
-                     <input type="phone" value="" class="form-control" placeholder="phone number">
+                     <input type="phone" value="" class="form-control" placeholder="phone number" required>
                   </div>
-                  <label>Gender</label>
+                  <label>Gender <span class="asterisk">*</span></label>
                   <div>
-                     <label for="male" class="radio-inline"><input type="radio" name="gender" id="male
+                     <label for="male" class="radio-inline gender"><input type="radio" name="gender" id="male
                          ">Male</label>
-                     <label for="female" class="radio-inline"><input type="radio" name="gender" id="
+                     <label for="female" class="radio-inline gender"><input type="radio" name="gender" id="
                            female">Female</label>
-                     <label for="others" class="radio-inline"><input type="radio" name="gender" id="
+                     <label for="others" class="radio-inline gender"><input type="radio" name="gender" id="
                            others">others</label>
                   </div>
                   <input type="submit" class="btn btn-success">
