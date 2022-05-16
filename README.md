@@ -23,10 +23,8 @@ B. PROJECT INSTRUCTIONS
 *   [Telegram](https://t.me/KekuBt)
 *   [github](https://github.com/kekubt)
 #
-		Ajibola Alade - Assistant Team Leader
-*   [Telegram](https://t.me/Ajibola_1)
-*   [Github](https://github.com/Ajibola1234)
-#
-		Bamidele Tijani - Team Member
+		Bamidele Tijani - Assistant Team Leader
 *   [Telegram](https://t.me/EmmyB4Christ)
 *   [Github](https://github.com/Emmyb123)
+#
+Other members of the team did not contribute due to inactivity.
