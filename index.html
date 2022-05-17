@@ -21,24 +21,29 @@
 
 <body>
    <!-- Navbar Section -->
-   <nav class="navbar">
-      <div class="navbar_container">
-         <a href="#home" id="navbar_logo"><img src="images/logo-dark.png" width="20%" alt=""></a>
+   <nav class="navbar_container">
+      <div class="logo">
+         <a href="#"><img src="images/logo-dark.png" width="20%" alt="logo" class="logo"></a>
+      </div>
+      <ul class="nav-links">
+         <li>
+            <a href="#home" class="nav-a">Home</a>
+         </li>
+         <li>
+            <a href="#about" class="nav-a">About</a>
+         </li>
 
-         <ul class="navbar_menu">
-            <li class="navbar_item">
-               <a href="#home" class="navbar_links" id="home-page">Home</a>
-            </li>
-            <li class="navbar_item">
-               <a href="#about" class="navbar_links" id="about-page">About</a>
-            </li>
-            <li class="navbar_item">
-               <a href="#services" class="navbar_links" id="services-page">Services</a>
-            </li>
-            <li class="navbar_links">
-               <a href="#sign-up" class="button" id="signup">Sign In</a>
-            </li>
-         </ul>
+         <li>
+            <a href="#contact-us" class="nav-a">Contact Us</a>
+         </li>
+         <li>
+            <a href="" class="nav-a" id="sign-in">Sign In</a>
+         </li>
+      </ul>
+      <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
       </div>
    </nav>
 
@@ -68,35 +73,7 @@
       </div>
    </div>
 
-   <!-- Services Section -->
-
-   <div class="services" id="services">
-      <h1>Our Services</h1>
-      <div class="services_wrapper">
-         <div class="services_card">
-            <h2>Starter</h2>
-            <p>5$ per month</p>
-            <div class="services_btn"><button>Get Started</button></div>
-         </div>
-         <div class="services_card">
-            <h2>Standard</h2>
-            <p>10$ per month</p>
-            <div class="services_btn"><button>Get Started</button></div>
-         </div>
-         <div class="services_card">
-            <h2>Pro</h2>
-            <p>25$ per month</p>
-            <div class="services_btn"><button>Get Started</button></div>
-         </div>
-         <div class="services_card">
-            <h2>Premium</h2>
-            <p>50$ per month</p>
-            <div class="services_btn"><button>Get Started</button></div>
-         </div>
-      </div>
-   </div>
-
-   <!-- Features Section -->
+   <!-- Sign In Section -->
 
    <div class="main" id="sign-up">
       <div class="main_container">
@@ -107,113 +84,113 @@
             <button class="main_btn"><a href="#">Sign Up</a></button>
          </div>
          <div class="main_img-container">
-            <div class="main_img-card" id="card-2">
-               <i class="fas fa-users"></i>
-            </div>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="register">
-                  <label>Username<span class="asterisk">*</span></label>
-                  <div class="form-group">
-                     <input type="text" name="username" class="form-control" placeholder="username" required>
-                  </div>
-                  <label>Email address <span class="asterisk">*</span></label>
-                  <div class="form-group">
-                     <input type="email" value="" class="form-control" placeholder="example@gmail.com" required>
-                  </div>
-                  <label>Password <span class="asterisk">*</span></label>
-                  <div class="form-group pass_show">
-                     <input type="password" value="" class="form-control" placeholder="Password" id="password" required>
-                     <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
-                           onclick="toggle()"></i></span>
-                  </div>
-                  <label>Confirm Password <span class="asterisk">*</span></label>
-                  <div class="form-group pass_show">
-                     <input type="password" value="" class="form-control" placeholder="Confirm Password"
-                        id="confirm-password" required>
-                     <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
-                           onclick="toggle()"></i></span>
-                  </div>
-                  <label>Phone number <span class="asterisk">*</span></label>
-                  <div class="form-group">
-                     <input type="phone" value="" class="form-control" placeholder="phone number" required>
-                  </div>
-                  <label>Gender <span class="asterisk">*</span></label>
-                  <div>
-                     <label for="male" class="radio-inline gender"><input type="radio" name="gender" id="male
-                         ">Male</label>
-                     <label for="female" class="radio-inline gender"><input type="radio" name="gender" id="
-                           female">Female</label>
-                     <label for="others" class="radio-inline gender"><input type="radio" name="gender" id="
-                           others">others</label>
-                  </div>
-                  <input type="submit" class="btn btn-success">
+            <div class="container">
+               <div class="row">
+                  <form id="form" action="#">
+                     <label id="labels">Username<span class="asterisk">*</span></label>
+                     <div class="input-control">
+                        <input type="text" name="username" class="form-control" placeholder="username" id="username">
+                     </div>
+                     <label id="labels">Email address <span class="asterisk">*</span></label>
+                     <div class="input-control">
+                        <input type="email" value="" class="form-control" placeholder="example@gmail.com" id="email">
+                     </div>
+                     <label id="labels">Password <span class="asterisk">*</span></label>
+                     <div class="input-control pass_show">
+                        <input type="password" value="" class="form-control" placeholder="Password" id="password">
+                        <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
+                              onclick="toggle()"></i></span>
+                     </div>
+                     <label id="labels">Confirm Password <span class="asterisk">*</span></label>
+                     <div class="input-control pass_show">
+                        <input type="password2" value="" class="form-control" placeholder="Confirm Password"
+                           id="confirm-password">
+
+                        <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
+                              onclick="toggle()"></i></span>
+                     </div>
+                     <label id="labels">Phone number <span class="asterisk">*</span></label>
+                     <div class="input-control">
+                        <input type="phone" value="" class="form-control" placeholder="phone number" id="phoneNum">
+                     </div>
+                     <label>Gender <span class="asterisk">* &nbsp &nbsp</span></label>
+                     <div>
+                        <label for="male" class="radio-inline gender"><input type="radio" name="gender" id="male
+                            ">Male</label>
+                        <label for="female" class="radio-inline gender"><input type="radio" name="gender" id="
+                              female">Female</label>
+                        <label for="others" class="radio-inline gender"><input type="radio" name="gender" id="
+                              others">others</label>
+                     </div>
+                     <button type="submit" class="btn btn-success" id="btn-submit">Submit</button>
+                  </form>
                </div>
             </div>
          </div>
       </div>
-   </div>
-   <!-- Footer section -->
-   <section>
-      <div class="container-2">
-         <h3 class="about"> about company</h3>
-         <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-            atque corrupti.
-            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
-         <div class="list">
-            <div class="list-1">
-               <h3> Your question</h3>
-               <ul>
-                  <li> How it works</li>
-                  <li> Testimonials</li>
-                  <li> Careers</li>
-                  <li> Our Services</li>
-                  <li> Terms and Conditions</li>
-               </ul>
+
+      <!-- Footer section -->
+
+      <section id="contact-us">
+         <div class="container-2">
+            <h3 class="about"> about company</h3>
+            <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+               deleniti
+               atque corrupti.
+               Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
+            <div class="list">
+               <div class="list-1">
+                  <h3> Your question</h3>
+                  <ul>
+                     <li> How it works</li>
+                     <li> Testimonials</li>
+                     <li> Careers</li>
+                     <li> Our Services</li>
+                     <li> Terms and Conditions</li>
+                  </ul>
+               </div>
+               <div class="list-2">
+                  <h3> contact us</h3>
+                  <ul>
+                     <li> Contact</li>
+                     <li> Support</li>
+                     <li> Contact</li>
+                     <li> Destinations</li>
+                  </ul>
+               </div>
+               <div class="list-3">
+                  <h3> Videos</h3>
+                  <ul>
+                     <li> Submit videos</li>
+                     <li> Ambassador</li>
+                     <li> Our Team</li>
+                     <li> Agency</li>
+                  </ul>
+               </div>
+               <div class="list-4">
+                  <h3> social media</h3>
+                  <ul>
+                     <li> Facebook</li>
+                     <li> WhatsApp</li>
+                     <li> Twitter</li>
+                     <li> linkedin</li>
+                     <li> Telegram</li>
+                  </ul>
+               </div>
             </div>
-            <div class="list-2">
-               <h3> contact us</h3>
-               <ul>
-                  <li> Contact</li>
-                  <li> Support</li>
-                  <li> Contact</li>
-                  <li> Destinations</li>
-               </ul>
+            <div class="social-media-icon">
+               <img src="./images/facebook.png" alt="./images/facebook.png">
+               <img src="./images/whatsapp.png" alt="./images/whatsapp.png">
+               <img src="./images/twitter.png" alt="./images/twitter.png">
+               <img src="./images/linkedin.png" alt="./images/likedin.png">
+               <img src="./images/telegram.png" alt="./images/telegram.png">
             </div>
-            <div class="list-3">
-               <h3> Videos</h3>
-               <ul>
-                  <li> Submit videos</li>
-                  <li> Ambassador</li>
-                  <li> Our Team</li>
-                  <li> Agency</li>
-               </ul>
-            </div>
-            <div class="list-4">
-               <h3> social media</h3>
-               <ul>
-                  <li> Facebook</li>
-                  <li> WhatsApp</li>
-                  <li> Twitter</li>
-                  <li> linkedin</li>
-                  <li> Telegram</li>
-               </ul>
-            </div>
+            <h6> © SH 2022. All rights reserved.</h6>
          </div>
-         <div class="social-media-icon">
-            <img src="./images/facebook.png" alt="./images/facebook.png">
-            <img src="./images/whatsapp.png" alt="./images/whatsapp.png">
-            <img src="./images/twitter.png" alt="./images/twitter.png">
-            <img src="./images/linkedin.png" alt="./images/likedin.png">
-            <img src="./images/telegram.png" alt="./images/telegram.png">
-         </div>
-         <h6> © SH 2022. All rights reserved.</h6>
-      </div>
-   </section>
+      </section>
 
 
-   <script src="app.js"></script>
+      <script src="app.js"></script>
 </body>
 
 </html>
