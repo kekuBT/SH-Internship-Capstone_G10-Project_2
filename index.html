@@ -124,7 +124,7 @@
                   </div>
                   <label>Password <span class="asterisk">*</span></label>
                   <div class="form-group pass_show">
-                     <input type="password" value="" class="form-control" placeholder="Password" id="password" required>
+                     <input type="password" value="" class="form-control" placeholder="Password" id="password" required minilength ="10" required>
                      <span class="eye-icon"><i class="fa fa-eye" aria-hidden="true" id="eye"
                            onclick="toggle()"></i></span>
                   </div>
@@ -137,7 +137,7 @@
                   </div>
                   <label>Phone number <span class="asterisk">*</span></label>
                   <div class="form-group">
-                     <input type="phone" value="" class="form-control" placeholder="phone number" required>
+                     <input type="phone" value="" class="form-control" placeholder="phone number" pattern ="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder = "123-45-678" required>
                   </div>
                   <label>Gender <span class="asterisk">*</span></label>
                   <div>
