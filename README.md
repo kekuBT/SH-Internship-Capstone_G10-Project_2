@@ -26,6 +26,10 @@ B. PROJECT INSTRUCTIONS
 		Bamidele Tijani - Assistant Team Leader
 *   [Telegram](https://t.me/EmmyB4Christ)
 *   [Github](https://github.com/Emmyb123)  
-*   [Second Github](https://github.com/Domegud)
-#
+* [Second Github](https://github.com/Domegud)
+
+#.     Alade Ajibola - Group member
+          [Telegram] (https://t.me/Ajibola_1)
+	   [github]  (https://github.com/Ajibola12 34) 
+
 Other members of the team did not contribute due to inactivity.
